@@ -3,11 +3,41 @@
   padding: 0px;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: 'Roboto';
   height: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-h1 {
-  color: #FFFF00;
+header {
+  grid-template-columns: 2 / 3;
+}
+
+.sidebar {
+  background-color: #1992d4;
+}
+
+.sidebar .branding .logo {
+  width: 4rem;
+  height: 4rem;
+  color: #ffffff;
+}
+
+.sidebar-icons {
+  width: 2rem;
+  height: 2rem;
+  
+}
+
+.nav-pages ul li a{
+  color: #ffffff;
 }
